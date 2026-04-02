@@ -1,0 +1,45 @@
+{
+  "name": "farcaster-twin-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup": "npx tsx scripts/setup.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "agent:compile": "agentjson -p . -o ./public/agent.json --auth-type farcaster-frame --url $NEXT_PUBLIC_APP_URL"
+  },
+  "dependencies": {
+    "next": "15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@farcaster/frame-sdk": "^0.0.28",
+    "@neynar/nodejs-sdk": "^2.0.0",
+    "farcaster-agent-sdk": "github:Akin-Tunde/farcaster-agent-sdk",
+    "@anthropic-ai/sdk": "^0.36.0",
+    "viem": "^2.21.0",
+    "drizzle-orm": "^0.38.0",
+    "postgres": "^3.4.5",
+    "@neondatabase/serverless": "^0.10.4",
+    "openai": "^4.77.0",
+    "zod": "^3.24.0",
+    "jose": "^5.9.6",
+    "usehooks-ts": "^3.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.30.0",
+    "eslint": "^8",
+    "eslint-config-next": "15.1.0",
+    "farcaster-agent-compiler": "github:Akin-Tunde/farcaster-agent-compiler",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8",
+    "autoprefixer": "^10.0.1"
+  }
+}

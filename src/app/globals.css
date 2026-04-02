@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Safe area for mobile Farcaster clients */
+body {
+  padding-bottom: env(safe-area-inset-bottom);
+}

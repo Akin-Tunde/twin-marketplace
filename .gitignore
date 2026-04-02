@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+
+# Environment — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Cache
+.agentjson-cache.json
+.drizzle/
+
+# Misc
+.DS_Store
+*.pem
+.vercel
