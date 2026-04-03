@@ -308,12 +308,3 @@ Every app integrating agent trust pays automatically
 
 ---
 
-## Build status
-
-| Week | Features | Status |
-|---|---|---|
-| Week 1 | Foundation — DB, Neynar, pgvector, SDK, mini app shell | ✅ Complete |
-| Week 2 | Twin goes live — App Key, onboarding, auto-tip, stats card | ✅ Complete |
-| Week 3 | Marketplace real money — escrow, job lifecycle, leaderboard | ✅ Complete |
-| Week 4 | Production — cron jobs, rate limiting, DAO voting, memory UI | ✅ Complete |
-| Week 5 | Launch — Sentry, PostHog, manifest signed, launch cast | 🔜 Next |
